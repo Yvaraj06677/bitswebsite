@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+    border: solid 1px;
+    height: 165px;
+    display: flex;
+    text-decoration-line: lin;
+
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 165px;
+    background-color: bisque;
+    }
+    #box1{
+        width: 185px;
+    }
+    #box2{
+        width: 2000px;
+        text-align: center;
+    }
+    #clgname{
+               font-size: 45px;
+               color: rgb(226, 69, 116);
+    }
+    #text1{
+color: rgb(13, 126, 155);
+font-size: 30px;
+font-style: oblique;
+}
+#text2,#text3{
+    color: rgba(4, 77, 77, 0.856);
+    font-style: oblique;}
+    #scrolltext{
+        font-size: 21px;
+        color: rgb(236, 45, 77);
+        background-color: yellow;
+        font-style: italic;
+        font-weight: bold;
+    }
+    #navbox{
+        border: solid 1px;
+        height: 50px;
+    }
+    ul li{
+        border :solid 1px;
+        height: 50px;
+        width: 269px;
+        float: left;
+        text-align: center;
+        line-height: 48px;
+        background-color: rgb(190, 174, 153);
+        color: rgb(117, 34, 165);
+        border-radius: 5px;
+        margin-right: 2px;
+        margin-bottom: 2px;
+    }
+    ul {
+     list-style: none;
+     
+    }
+    ul li a{
+    
+        font-size: 20px;
+        text-decoration: none ;
+        color: rgb(10, 69, 146);
+
+    }
+    ul li ul li{
+        display: none;
+    }
+    ul li:hover ul li{
+        display: block;
+    }
+    ul li:hover{
+        background-color: rgb(223, 77, 85);
+    }
+    .outbox{
+        border: solid 1px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #in1,#in2,#in3{
+        border: solid 1px;
+        height: 250px;
+        z-index: -1;
+        
+    }
+    #in1{
+        width: 650px;
+        background-image: url(img1.jpg);
+        background-repeat: no-repeat;
+        background-size: 650px 250px;
+        animation-name: imgchange;
+        animation-duration: 10s;
+     animation-iteration-count: infinite;
+
+    }
+    @keyframes imgchange{
+        10%{
+            background-image: url(img1.jpg);
+        }
+        20%{
+            background-image: url(img2.jpg);
+        }
+        30%{
+            background-image: url(img3.jpg);
+        }
+        40%{
+            background-image: url(img4.jpg);
+        }
+        50%{
+            background-image: url(img5.jpg);
+        }
+        60%{
+            background-image: url(img6.jpg);
+        }
+        70%{
+            background-image: url(img7.jpg);
+        }
+    }
+    
+    #in2{
+        width: 500px;
+    }
+        
+    
+    #in3{
+        width: 500px;
+    }
+    #in3{
+        width: 0px;
+        background-image: url(img1.jpg);
+        background-repeat: no-repeat;
+        background-size: 650px 250px;
+        animation-name: imgchange;
+        animation-duration: 10s;
+     animation-iteration-count: infinite;
+
+    }
+    h1{
+        font-size: 30px;
+        font-style: oblique;
+        color: rgb(148, 86, 5);
+    }
